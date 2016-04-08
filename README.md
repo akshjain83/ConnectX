@@ -9,7 +9,7 @@ For the function, bool ConnectX::inBounds(int w, int h), as stated in its docume
 Uncertain about this bug, but when instantiating the object of class ConnectX with certain positive values where value of x(toWin) is a positive value much larger(greater than width x height), then the constructor still keeps the same values, even though the x(toWin) or number of space required to win the game is not possible to achieve. So x should not only greater than 0, but it should be less than or equal to (width X height).
 
 
-*Bug 3 -
+* Bug 3 -
 Another bug(most likely its a bug, uncertain if its a logical error), is caused in void placePiece(int) function due to inBounds() function. The false coverage in the if condition is not possible, stated as follows,
 if( at(column,i) == EMPTY && inBounds(column,i) )
 
