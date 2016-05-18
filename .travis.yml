@@ -1,0 +1,7 @@
+language: cpp
+compiler: g++
+script:
+  - make
+notifications:
+  on success: never
+  on failure: always
