@@ -43,18 +43,21 @@ void ConnectX::toggleTurn()
 // space in the board
 bool ConnectX::inBounds(int w, int h)
 {
-	bool inside;
+	bool inside, outside;
 	if( w>=width || w<0 )
 		inside = false;
 	else
 		inside = true;
 
 	if( h<0 || h>=height )
-		inside = false;
+		outside = false;
 	else
-		inside = true;
+		outside = true;
 
+        if(inside && outside)
 	return inside;
+	else
+	return false;
 }
 
 // Prints out the board to the command line, showing both
