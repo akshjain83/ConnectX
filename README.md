@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/akshjain83/ConnectX.svg?branch=master)](https://travis-ci.org/akshjain83/ConnectX)
 
 [Akshay Jain](https://github.com/akshjain83)
 
