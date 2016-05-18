@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/akshjain83/ConnectX.svg?branch=master)](https://travis-ci.org/akshjain83/ConnectX)[![Coverage Status](https://coveralls.io/repos/github/akshjain83/ConnectX/badge.svg?branch=master)](https://coveralls.io/github/akshjain83/ConnectX?branch=master)
+[![Build Status](https://travis-ci.org/akshjain83/ConnectX.svg?branch=master)](https://travis-ci.org/akshjain83/ConnectX) [![Coverage Status](https://coveralls.io/repos/github/akshjain83/ConnectX/badge.svg?branch=master)](https://coveralls.io/github/akshjain83/ConnectX?branch=master)
 
 [Akshay Jain](https://github.com/akshjain83)
 
