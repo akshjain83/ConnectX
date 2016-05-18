@@ -9,6 +9,10 @@ before_install:
 script:
   - make
   - ./ConnectXTest
+  - gcov -b ConnectX.cpp
+after_success:
+   - coveralls --exclude lib --gcov-options '\-lp'
+   - make clean
 notifications:
-  on success: never
-  on failure: always
+  on_success: never
+  on_failure: always
